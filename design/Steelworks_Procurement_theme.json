@@ -1,0 +1,93 @@
+{
+  "name": "Steelworks Procurement",
+  "dataColors": [
+    "#2F5D7C",
+    "#E8792B",
+    "#7FA7C1",
+    "#5B6B77",
+    "#3C8D6E",
+    "#C9A227",
+    "#B23A3A",
+    "#A9B6BF",
+    "#1E2A33",
+    "#9C6B98"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1E2A33",
+  "tableAccent": "#2F5D7C",
+  "good": "#3C8D6E",
+  "neutral": "#C9A227",
+  "bad": "#B23A3A",
+  "maximum": "#2F5D7C",
+  "center": "#C9D6DF",
+  "minimum": "#F4F7F9",
+  "textClasses": {
+    "callout": {
+      "fontFace": "DIN",
+      "fontSize": 22,
+      "color": "#1E2A33"
+    },
+    "title": {
+      "fontFace": "DIN",
+      "fontSize": 11,
+      "color": "#1E2A33"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 10,
+      "color": "#1E2A33"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 9,
+      "color": "#5B6B77"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "DIN",
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#1E2A33"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#EEF1F3"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
